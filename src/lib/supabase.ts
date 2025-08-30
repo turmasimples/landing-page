@@ -6,7 +6,7 @@ const supabaseAnonKey = process.env.SUPABASE_ANON || 'eyJhbGciOiJIUzI1NiIsInR5cC
 
 // if (!supabaseUrl || !supabaseAnonKey) {
 //   throw new Error(
-//     'Variáveis de ambiente do Supabase não encontradas. Verifique se NEXT_PUBLIC_SUPABASE_URL e NEXT_PUBLIC_SUPABASE_ANON estão definidas no arquivo .env.local'
+//     'Variáveis de ambiente do Supabase não encontradas.'
 //   )
 // }
 
