@@ -1,6 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
 
-// Verificar se as variáveis de ambiente estão definidas
 const supabaseUrl = process.env.SUPABASE_URL || 'https://scykmpulfrffkyofvpny.supabase.co'
 const supabaseAnonKey = process.env.SUPABASE_ANON || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNjeWttcHVsZnJmZmt5b2Z2cG55Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY1NjI1MTcsImV4cCI6MjA3MjEzODUxN30.uqxh8vlrrJ8cwQKdmQbRQbrB3HmEfro1WqhryGnyz2c'
 
