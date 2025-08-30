@@ -1,0 +1,25 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nuvem base -->
+  <ellipse cx="16" cy="20" rx="13" ry="8" fill="#0f8fcf" />
+  
+  <!-- Detalhes da nuvem -->
+  <circle cx="8" cy="17" r="4" fill="#1b9eee" />
+  <circle cx="16" cy="14" r="5" fill="#1b9eee" />
+  <circle cx="24" cy="17" r="4" fill="#1b9eee" />
+  
+  <!-- Capelo de formatura -->
+  <g transform="translate(16, 16)">
+    <!-- Base quadrada do capelo -->
+    <rect x="-4" y="-1" width="8" height="2" rx="0.5" fill="#0b6298" />
+    
+    <!-- Topo do capelo (quadrado inclinado) -->
+    <path 
+      d="M-5 -1 L0 -4 L5 -1 L0 -2.5 Z" 
+      fill="#1b9eee"
+    />
+    
+    <!-- Borla -->
+    <circle cx="4" cy="-3" r="0.8" fill="#0b6298" />
+    <line x1="4" y1="-3" x2="6" y2="-5" stroke="#0b6298" strokeWidth="0.5" />
+  </g>
+</svg>

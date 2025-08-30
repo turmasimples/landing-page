@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://turmasimples.com.br/sitemap.xml
+
+# Otimizado para escolas pequenas e cursos livres
+# Gestão escolar, matrículas digitais, cobranças automáticas
