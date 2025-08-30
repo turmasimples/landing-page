@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { insertLead } from '@/lib/supabase'
+import { insertLead } from '@/app/api/supabase'
 
 interface LeadData {
   name: string

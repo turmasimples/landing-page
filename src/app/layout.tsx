@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { StructuredData } from "@/components/StructuredData";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 
 const inter = Inter({
@@ -69,7 +71,9 @@ export default function RootLayout({
         <StructuredData />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
+        <GoogleAnalytics measurementId="AW-798003940" />
         {children}
+        <SpeedInsights/>
       </body>
     </html>
   );
